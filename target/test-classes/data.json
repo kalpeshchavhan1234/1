@@ -1,0 +1,24 @@
+[
+  {
+    "products": {
+      "Sauce Labs Backpack": "$29.99",
+      "Sauce Labs Bike Light": "$9.99"
+    },
+    "user": {
+      "name": "kalpesh",
+      "last": "chavhan",
+      "code": "12345"
+    }
+  },
+  {
+    "products": {
+      "Sauce Labs Fleece Jacket": "$49.99",
+      "Sauce Labs Onesie": "$7.99"
+    },
+    "user": {
+      "name": "aaryan",
+      "last": "khan",
+      "code": "37493"
+    }
+  }
+]
