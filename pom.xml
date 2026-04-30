@@ -49,7 +49,24 @@
 </dependency>
 
   </dependencies>
-  
+   <profiles>
+
+        <profile>
+            <id>smoke</id>
+            <properties>
+                <suiteXmlFile>testng-smoke.xml</suiteXmlFile>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>regression</id>
+            <properties>
+                <suiteXmlFile>testng-regression.xml</suiteXmlFile>
+            </properties>
+        </profile>
+
+
+</project>
   <build>
   <plugins>
     <plugin>
@@ -64,5 +81,6 @@
     </plugin>
   </plugins>
 </build>
-</project>
 
+</project>
+</profiles>
