@@ -9,7 +9,7 @@ public class MyFirst {
 	public void jenkinsDemo() {
 		
 		System.out.println("I am learning the jenkins");
-		
+		System.out.println("I m=am learnig the git as well");
 		
 	}
 	
