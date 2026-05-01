@@ -86,14 +86,14 @@
         <profile>
             <id>smoke</id>
             <properties>
-                <suiteXmlFile>testng-smoke.xml</suiteXmlFile>
+                <suiteXmlFile>testng.xml</suiteXmlFile>
             </properties>
         </profile>
 
         <profile>
             <id>regression</id>
             <properties>
-                <suiteXmlFile>testng2-regression.xml</suiteXmlFile>
+                <suiteXmlFile>testng2.xml</suiteXmlFile>
             </properties>
         </profile>
 
